@@ -1,6 +1,6 @@
 const TELEGRAM = 'https://api.telegram.org'
 const REDIRECT_TO = 'ngl/thanks/'
-const ALLOWED_HOST = 'ngl.github.io'
+const ALLOWED_HOST = 'princeosorio.onrender.com'
 
 addEventListener('fetch', event => event.respondWith(handleRequest(event.request)))
 
